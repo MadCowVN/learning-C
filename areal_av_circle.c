@@ -18,3 +18,18 @@ int main() {
     printf("The area of the circle is %.2f\n", areal);
     return 0;
 }
+-------------------------------------------------------------
+#include <stdio.h>
+
+#define PI = 3.14356;
+    int main() {
+    float radius, area;
+    printf("Enter your radius");
+    scanf("%lf", &radius);
+
+    if (radius <= 0.0) {
+        printf("Radius is more than 0.\n");
+        return 1;
+    }
+
+}
